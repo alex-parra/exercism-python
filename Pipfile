@@ -7,8 +7,11 @@ verify_ssl = true
 
 [packages]
 pytest = "*"
-autopep8 = "*"
 pylint = "*"
+black = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
